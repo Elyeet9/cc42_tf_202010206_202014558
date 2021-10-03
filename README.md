@@ -1,4 +1,4 @@
-# cc42_tf_U202010206_U202014558
+# cc42_tf_202010206_202014558
 Trabajo Complejidad Algoritmica
 
 
