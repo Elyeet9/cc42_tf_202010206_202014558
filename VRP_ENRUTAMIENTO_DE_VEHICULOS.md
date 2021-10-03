@@ -1,0 +1,4 @@
+VRP – ENRUTAMIENTO DE VEHÍCULOS
+El problema del agente viajero plantea una situación donde se busca encontrar el ciclo Hamiltoniano más eficiente en costo/tiempo. El espacio de búsqueda de dicho problema es factorial de n, siendo n la cantidad de nodos en el grafo. En el proyecto, se plantea el estado inicial en el que un vehículo parte de un punto de distribución aleatorio y debe atravesar una cantidad n aleatoria de puntos de entrega antes de regresar al punto de partida. 
+Para el caso de ejemplo (Anexo 1), se considerará al nodo # como el estado inicial y los nodos A,B,C,D,E,F,G,H como los puntos de entrega. En el problema planteado, el espacio de búsqueda es 9! (362 880). La forma en la que el vehículo visitará los nodos está determinada mediante el algoritmo DFS, por lo que, tras calcular el ciclo más corto, el estado final resulta en el vehículo pasando por cada uno de los  nodos siguiendo la ruta más eficiente en costo/tiempo.
+    
